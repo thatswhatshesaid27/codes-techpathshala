@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
     <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
       .heading {
         box-sizing: border-box;
         display: flex;
@@ -54,7 +56,7 @@
       .contact {
         display: flex;
         flex-direction: row;
-        gap: 1em;
+        gap: 4em;
       }
 
       .subheading_style {
@@ -107,8 +109,15 @@
         align-items: center;
         margin-left: 100px;
       }
+
+      .line {
+        margin: 60px 0px 0px 0px;
+        position: absolute;
+      }
     </style>
-    <div class="heading">
+  </head>
+  <body>
+    <section class="profile">
       <div class="introduction">
         <span class="name">YASH DUBALE</span>
         <div>Software Engineer</div>
@@ -126,119 +135,138 @@
             &phone;<a
               style="text-decoration: none; color: inherit"
               href="tel:9082812667"
-              >9082812667</a
+              >Phone</a
             ></span
           >
 
           <span
-            >&commat;<a
+            >&#128231;<a
               style="text-decoration: none; color: inherit"
               href="yashdubale2002@gmail.com"
             >
               Email</a
             ></span
           >
-          <span>1962/80/6, Tagore Nagar, Vikhroli(E),Mumbai-400083</span>
+          <span>&#9750;Vikhroli(E),Mumbai-400083</span>
         </div>
       </div>
-      <section class="image_section">
+      <div class="image_section">
         <img
           src="wallpaperflare.com_wallpaper.jpg"
           width="200px"
           height="200px"
         />
-      </section>
-    </div>
-    <div class="subheading_style">
-      <div class="section_headings">Work Experience</div>
-    </div>
+      </div>
+    </section>
 
-    <div class="maindiv">
-      <div class="first">
-        <b>Software Developer</b>
-        <p>Aug 2023- Aug 2024</p>
+    <section class="work_experience">
+      <div class="subheading_style">
+        <div class="section_headings">Work Experience</div>
+        <div
+          class="line"
+          style="border-top: 2px solid rgb(72, 72, 255); width: 80%"
+        ></div>
       </div>
 
-      <div class="second">
-        <b>PNT Robotics & Automation Solutions</b>
-        <p>
-          Developed software with PyQt, Streamlit, and web apps using React,
-          Vue. worked with database management systems like MySQL and MongoDB,
-          Experienced in coding for Arduino and other IoT devices and sensors,
-          Knowledgeable in Machine Learning with experience in Image recognition
-          and creating Machine Learning models.
-        </p>
-      </div>
-    </div>
+      <div class="maindiv">
+        <div class="first">
+          <b>Software Developer</b>
+          <p>Aug 2023- Aug 2024</p>
+        </div>
 
-    <div class="maindiv">
-      <div class="first">
-        <b>Software Developer <br />(Intern)</b>
-        <p>Dec 2022- Aug 2023</p>
-      </div>
-
-      <div class="second">
-        <b>PNT Robotics & Automation Solutions</b>
-        <p>
-          Developed software with PyQt, Streamlit, and web apps using React,
-          Vue. worked with database management systems like MySQL and MongoDB
-          Experienced in coding for Arduino and other IoT devices and sensors.
-          Knowledgeable in Machine Learning with experience in Image recognition
-          and creating Machine Learning models.
-        </p>
-      </div>
-    </div>
-
-    <div class="subheading_style">
-      <div class="section_headings">Education</div>
-    </div>
-
-    <div class="maindiv">
-      <div class="first">
-        <b>B E in Information Technology</b>
-        <p>(Jan 2021- May 2023)</p>
+        <div class="second">
+          <b>PNT Robotics & Automation Solutions</b>
+          <p>
+            Developed software with PyQt, Streamlit, and web apps using React,
+            Vue. worked with database management systems like MySQL and MongoDB,
+            Experienced in coding for Arduino and other IoT devices and sensors,
+            Knowledgeable in Machine Learning with experience in Image
+            recognition and creating Machine Learning models.
+          </p>
+        </div>
       </div>
 
-      <div class="second">
-        <b>Vasantdada Patil College of Engineering</b>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit fuga
-          consectetur dicta deleniti, alias ut ipsa eveniet? Odio esse aperiam
-          exercitationem, tempore odit, fuga quisquam ea quaerat, alias minus
-          in.(CGPA : 8.22)
-        </p>
+      <div class="maindiv">
+        <div class="first">
+          <b>Software Developer <br />(Intern)</b>
+          <p>Dec 2022- Aug 2023</p>
+        </div>
+
+        <div class="second">
+          <b>PNT Robotics & Automation Solutions</b>
+          <p>
+            Developed software with PyQt, Streamlit, and web apps using React,
+            Vue. worked with database management systems like MySQL and MongoDB
+            Experienced in coding for Arduino and other IoT devices and sensors.
+            Knowledgeable in Machine Learning with experience in Image
+            recognition and creating Machine Learning models.
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="maindiv">
-      <div class="first">
-        <b>Diploma in Computer Engineering</b>
-        <p>Jun 2017- Nov 2020</p>
+    <section class="education">
+      <div class="subheading_style">
+        <div class="section_headings">Education</div>
+        <div
+          class="line"
+          style="border-top: 2px solid rgb(72, 72, 255); width: 80%"
+        ></div>
       </div>
 
-      <div class="second">
-        <b>M.H Saboo Siddik Polytechnic</b>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
-          quia cum accusamus, iste pariatur error atque maxime dignissimos odio
-          voluptates iure ratione qui dolor quos quae sit culpa dolores
-          blanditiis.(Percentage: 85.43)
-        </p>
+      <div class="maindiv">
+        <div class="first">
+          <b>B E in Information Technology</b>
+          <p>(Jan 2021- May 2023)</p>
+        </div>
+
+        <div class="second">
+          <b>Vasantdada Patil College of Engineering</b>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+            fuga consectetur dicta deleniti, alias ut ipsa eveniet? Odio esse
+            aperiam exercitationem, tempore odit, fuga quisquam ea quaerat,
+            alias minus in.(CGPA : 8.22)
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="subheading_style">
-      <div class="section_headings">Communication</div>
-    </div>
+      <div class="maindiv">
+        <div class="first">
+          <b>Diploma in Computer Engineering</b>
+          <p>Jun 2017- Nov 2020</p>
+        </div>
 
-    <div class="communicate">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
-      quisquam nemo atque blanditiis similique, vel nostrum, quidem incidunt in
-      enim nesciunt culpa, consequuntur hic voluptates repudiandae! Eveniet
-      doloribus dolores a? Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Corporis nemo libero est, magni id velit minus repudiandae amet non
-      autem minima eligendi dolores. Id sapiente non pariatur nemo consequatur
-      nam.
-    </div>
+        <div class="second">
+          <b>M.H Saboo Siddik Polytechnic</b>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consectetur quia cum accusamus, iste pariatur error atque maxime
+            dignissimos odio voluptates iure ratione qui dolor quos quae sit
+            culpa dolores blanditiis.(Percentage: 85.43)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="Communication">
+      <div class="subheading_style">
+        <div class="section_headings">Communication</div>
+        <div
+          class="line"
+          style="border-top: 2px solid rgb(72, 72, 255); width: 80%"
+        ></div>
+      </div>
+
+      <div class="communicate">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
+        quisquam nemo atque blanditiis similique, vel nostrum, quidem incidunt
+        in enim nesciunt culpa, consequuntur hic voluptates repudiandae! Eveniet
+        doloribus dolores a? Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Corporis nemo libero est, magni id velit minus repudiandae amet
+        non autem minima eligendi dolores. Id sapiente non pariatur nemo
+        consequatur nam.
+      </div>
+    </section>
   </body>
 </html>
